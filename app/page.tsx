@@ -89,15 +89,15 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-slate-100 text-slate-800">
+    <main className="min-h-screen bg-slate-20 text-slate-500">
       {/* Header */}
-      <header className="bg-blue-700 text-white shadow-md">
+      <header className="bg-green-500 text-pink shadow-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <div>
             <h1 className="text-2xl font-bold">
               Student Dashboard
             </h1>
-            <p className="mt-1 text-sm text-blue-100">
+            <p className="mt-1 text-sm text-red-100">
               Welcome to your academic space
             </p>
           </div>
