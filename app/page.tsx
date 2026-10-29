@@ -188,12 +188,12 @@ export default function Home() {
               <h2 className="text-xl font-bold text-yellow-500">
                 My Courses
               </h2>
-              <p className="mt-1 text-sm text-slate-500">
+              <p className="mt-1 text-sm text-slate-20 text-red-500">
                 Your registered courses for this semester
               </p>
             </div>
 
-            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
+            <span className="rounded-full bg-green-500 px-4 py-2 text-sm font-semibold text-blue-500">
               {courses.length} Courses
             </span>
           </div>
@@ -203,13 +203,15 @@ export default function Home() {
               <table className="w-full text-left">
                 <thead className="bg-slate-50">
                   <tr>
-                    <th className="px-6 py-4 text-sm font-semibold">
+                    <th className="px-6 py-4 text-sm font-semibold text-green-500">
                       Course Code
                     </th>
-                    <th className="px-6 py-4 text-sm font-semibold">
+                    <th className="px-6 py-4 text-sm font-semibold 
+                    text-green-500">
                       Course Title
                     </th>
-                    <th className="px-6 py-4 text-sm font-semibold">
+                    <th className="px-6 py-4 text-sm font-semibold 
+                    text-green-500">
                       Status
                     </th>
                   </tr>
@@ -251,7 +253,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="pb-4 text-center text-sm text-slate-500">
+        <footer className="pb-4 text-center text-sm text-slate-100">
           Student Dashboard © 2026 | Built with Next.js and TypeScript
         </footer>
       </div>
