@@ -9,3 +9,14 @@ Features
 * Completed courses.
 * Pending courses.
 * in-progess courses.
+
+Technologies Used
+* Next.js
+* TypeScript
+* CSS
+
+Getting Started
+Run npm install to install dependencies, then npm run dev to start the development server.
+
+Project Status
+Currently under development.
